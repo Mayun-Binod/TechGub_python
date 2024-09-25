@@ -1,0 +1,6 @@
+file=open("fileHandling/demo.txt","r")
+dataRead=file.read()
+print(dataRead)
+print(type(dataRead))
+print(type(file))
+file.close()
